@@ -1,0 +1,137 @@
+body {
+    background-size: cover;
+    background-position: center;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+#Logo {
+    float: left;
+    margin-right: 10px;
+    width: 120px;
+    height: auto;
+    
+}
+
+header {
+    background-color: #aa480c;
+    color: #FFF;
+    text-align: center;
+    padding: 15px 0;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    background-color: #aa480c;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+nav ul li {
+    margin: 0 10px;
+}
+
+nav a {
+    color: #000000;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    background-color: #ffffff;
+}
+
+nav a:hover {
+    background-color: #777;
+}
+
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #FFF;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    background-color: rgb(243, 191, 176);
+}
+
+section.section-container {
+    margin-bottom: 20px;
+}
+
+#informacion {
+    color: #000000;
+}
+
+#historia {
+    color: #000000;
+}
+
+#mision {
+    color: #000000;
+   
+}
+
+#vision {
+    color: #000000;
+}
+
+h1 {
+    margin-top: 0;
+    text-align: center;
+}
+
+p {
+    line-height: 1.6;
+}
+
+footer {
+    color: rgb(255, 255, 255);
+    font-size: 25px;
+    text-align: center;
+    background-color: #aa480c
+}
+#map {
+    height: 400px;
+    width: 100%;
+}
+#facebook-icon,
+#instagram-icon {
+    color: white;
+}
+.profesor img {
+    max-width: 200px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+.profesor {
+    margin-bottom: 20px;
+}
+
+.info-container {
+    display: flex;
+    align-items: center;
+}
+
+.profesor-img {
+    max-width: 200px;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+
+.profesor-info {
+    flex: 1;
+}
+@media only screen and (max-width: 600px) {
+  }
+  @media only screen and (min-width: 601px) and (max-width: 1024px) {
+  }
+  @media only screen and (min-width: 1025px) {
+  }
+  
